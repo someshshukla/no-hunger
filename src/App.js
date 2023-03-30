@@ -1,10 +1,11 @@
 import React from 'react';
 import Navbar from "./components/Navbar";
-import DonaterForm from './components/DonaterForm';
+import DonorForm from './components/DonorForm';
 
 
 export const App = () => {
-  return <Navbar/>
+  return <DonorForm/>
+
 }
 
 export default App
