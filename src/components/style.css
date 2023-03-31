@@ -1,0 +1,63 @@
+body {
+    background-color: aliceblue;
+}
+
+.header {
+    justify-content: center;
+    text-align: center;
+    text-decoration-color: aqua;
+
+}
+
+.container {
+    background-color: antiquewhite;
+    justify-content: center;
+    width: 50%;
+    margin-left: 26%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    
+}
+
+input[type=password], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+
+}
+
+button {
+    width: 30%;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.map {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    justify-content: center;
+}
