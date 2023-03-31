@@ -2,7 +2,8 @@ import React from 'react'
 
 
 const DonorForm = () => {
-  const data={name:"", phone:"", aadhar:"", password:""}
+  const data={name:"", phone:"", aadhar:"", password:""};
+  const [inputData, setInputData] = useState(data)
   return (
 
     <form className="container">
@@ -10,16 +11,16 @@ const DonorForm = () => {
             <h1>Donor Form</h1>
         </div>
         <div>
-        <input type="text" placeholder='Your Full Name' name='name'/>
+        <input type="text" placeholder='Your Full Name' name='name' value={inputData.name} onChange={handleData}/>
         </div>
         <div>
-        <input type="text" placeholder='Your Phone Number' phone='phone'/>
+        <input type="text" placeholder='Your Phone Number' phone='phone'value={inputData.phone} onChange={handleData}/>
         </div>
         <div>
-        <input type="text" placeholder='Your Aadhar Number' aadhar='aadhar'/>
+        <input type="text" placeholder='Your Aadhar Number' aadhar='aadhar' value={inputData.aadhar} onChange={handleData}/>
         </div>
         <div>
-        <input type="text" placeholder='Your password' password='password'/>
+        <input type="text" placeholder='Your password' password='password' value={inputData.aadha} onChange={handleData}/>
         </div>
         <div>
           <button type='submit'>Submit</button>
